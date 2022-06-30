@@ -1,0 +1,345 @@
+*{
+    font-family: 'Montserrat' !important;
+}
+
+i{
+    font-family: FontAwesome !important;
+}
+body{
+    font-size: 0.9rem;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-size: 1.3rem;
+}
+
+.form-group label{
+    font-size: 0.85rem;
+    margin-bottom: 0px;
+}
+
+.form-control{
+    font-size: 0.9rem;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle,
+.btn-primary.focus, .btn-primary:focus,
+.btn-primary{
+    background-color: #b1010b;
+    border:1px solid #b1010b;
+}
+
+.btn-primary:hover{
+    background-color: #730007;
+    border:1px solid #730007;
+}
+
+.login-background{
+    background: url(../../images/login-background-2.jpeg) no-repeat !important;
+    height: 100vh;
+    object-fit: cover !important;
+    background-position-x: 50% !important;
+    background-position-y: 41% !important;
+}
+
+.image-nav{
+    height: 250px;
+    padding: 0;
+    background: url(../../images/background-3.jpeg) no-repeat;
+    object-fit: cover !important;
+    background-size: 100% auto;
+    background-position-y: 65%;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+.image-nav img{
+    width: 100%;
+
+}
+.box-login{
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    top: 50vh;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -200px;
+    background-color:#fff;
+    border:1px solid #e4e4e4;
+    /*background-color: rgba(177, 1, 11, 0.5);*/
+    border-radius: 3px;
+}
+
+.logo-login{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo-login img{
+    width: 200px;
+}
+.box-login input{
+    margin: 10px 0;
+}
+
+.box-login button {
+    width: 100%;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+
+
+.erro-login ul{
+    margin-bottom: 0;
+}
+
+
+.navbar-logo{
+    width:150px;
+}
+
+.navbar-nav{
+    background-color: #232323 !important;
+}
+
+body nav.navbar{
+    background-color: #232323 !important;
+    height: 53px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:#fff !important;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.logout-link{
+    padding: 8px 5px;
+}
+
+.footer{
+    background-color: #b1010b;
+    color: #fff;
+    text-align: center;
+}
+
+.page-item.active .page-link{
+    background-color: #b1010b;
+    border-color: #b1010b;
+}
+.page-link:hover,
+.page-link{
+    color: #b1010b;
+}
+
+.nav-logo img{
+    max-width: 180px;
+    margin: 15px 0;
+}
+
+
+.img-form-curriculum{
+    border-radius: 5px;
+}
+.img-form-curriculum img{
+    height: auto;
+    max-height: 510px;
+    object-fit: cover !important;
+    border-radius: 5px;
+}
+
+#page-curriculum{
+    margin: 30px -15px;
+}
+
+#page-curriculum form{
+    padding: 0 0 0 25px;
+}
+
+#table_data nav,
+.pagination-bottom nav{
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+
+.pagination{
+    margin: 20px auto;
+}
+
+#form h1,
+#form-search h1{
+    margin-top:20px;
+}
+
+#agrupador-buttons-form.row{
+    margin-bottom: 20px;
+}
+
+#table_data table{
+    border-collapse: separate;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#table_data table td{
+    vertical-align: middle;
+}
+#table_data table thead th{
+    border:none;
+}
+@media(max-width:991px){
+    .navbar-nav{
+        margin-top: 5px !important;
+    }
+}
+
+
+table .btn{
+    padding: 0 !important;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.btn.edit{
+    background-color:#ffdc9e;
+    transition:all 0.3s;
+}
+
+.btn.referencias{
+    background-color:#3e9ed1;
+    transition:all 0.3s;
+}
+
+.btn.job{
+    background-color:#ffe670;
+    transition:all 0.3s;
+}
+
+.btn.image-client{
+    background-color:#87c158;
+    transition:all 0.3s;
+}
+
+.btn.imprimir{
+    background-color:#e57c4c;
+    transition:all 0.3s;
+}
+
+.btn.historico{
+    background-color:#ae94c4;
+    transition:all 0.3s;
+}
+
+.btn.info{
+    background-color:#638ab9;
+    transition:all 0.3s;
+}
+
+.btn.delete{
+    background-color:#da4e4d;
+    transition:all 0.3s;
+}
+
+.btn.delete:hover,
+.btn.info:hover,
+.btn.historico:hover,
+.btn.imprimir:hover,
+.btn.image-client:hover,
+.btn.job:hover,
+.btn.referencias:hover,
+.btn.historico:hover,
+.btn.edit:hover{
+    opacity:0.8;
+}
+
+.buscador-cep #btn-cep{
+    height: 35px;
+    background-color: #b1010b;
+    color: #fff;
+    border-color: #b1010b;
+    z-index: 0;
+}
+
+.loading{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-color:rgba(255, 255, 255, 0.5);
+    display: none;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.show-loading{
+    display: block !important;
+}
+
+.loading img{
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-left: -32px;
+    top: 50%;
+    margin-top: -32px;
+}
+@media(max-width:991px){
+    #table_data table{
+        display: flex;
+        border:none;
+    }
+
+    #table_data table thead{
+        display: none;
+    }
+
+    #table_data table tbody,
+    #table_data table tr td{
+        border:none;
+        display: block;
+        width: 100%;
+    }
+    #table_data table tr{
+        display: block;
+        width: 100%;
+        border: 1px solid #ced4da;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    #table_data table td:first-child::before{
+        content: "Nome: ";
+        font-weight: 600;
+    }
+    #table_data table td:nth-child(2)::before{
+        content: "Cidade: ";
+        font-weight: 600;
+    }
+    #table_data table td:nth-child(3)::before{
+        content: "Estado Civil: ";
+        font-weight: 600;
+    }
+    #table_data table td:nth-child(4)::before{
+        content: "Idade: ";
+        font-weight: 600;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    margin-top: 40px;
+}

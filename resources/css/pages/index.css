@@ -1,0 +1,197 @@
+
+.avatar-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.avatar-lg {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.bg-soft-light {
+    background-color: rgba(247,247,247,.25)!important;
+}
+
+.media-body.wigdet-two-content p{
+    min-height:48px
+}
+
+.card.widget-box-two{
+    margin:30px 0
+}
+
+.welcome-alert{
+    margin-top: 25px;
+    margin-bottom: 0;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+table{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem !important;
+}
+
+.proximos-vencimentos-table td{
+    vertical-align: middle;
+    font-size:0.8rem
+}
+.table thead td:last-child{
+    text-align: center;
+}
+
+.bg-info{
+    /*background-color: #fff !important;
+    color: #212529 !important;*/
+    background-color: #b1010b !important;
+    color: #fff !important;
+}
+
+#info-geral{
+    position: relative;
+    margin-top: -85px;
+}
+
+.table-index{
+    border-radius: 5px !important;
+    border: 1px solid #ced4da;
+    display: inline-block;
+    width: 100%;
+}
+
+.table-index .btn {
+    padding: 0 !important;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.table-titles{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    float: left;
+}
+.table-titles div{
+    font-weight: 600;
+    float: left;
+    text-align: center;
+}
+.table-row,
+.table-body{
+    width: 100%;
+}
+
+.table-row{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #ced4da;
+}
+
+.table-codigo{
+    width: 10%;
+}
+
+.table-name{
+    width: 30%;
+}
+.table-nas{
+    width: 10%;
+}
+
+.table-inclusion{
+    width: 10%;
+}
+
+.table-vencimento{
+    width: 10%;
+}
+
+.table-acoes{
+    width: 30%;
+}
+
+.table-row div{
+    float: left;
+}
+
+@media(max-width:991px){
+    .table-codigo,
+    .table-name,
+    .table-nas,
+    .table-inclusion,
+    .table-vencimento,
+    .table-acoes{
+        width: 100%;
+    }
+    .table-row{
+        display: inline-block;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        text-align: left;
+        margin: 10px 0;
+    }
+    
+    .table-index{
+        border:none;
+    }
+    
+    .table-titles{
+        display: none;
+    }
+    .table-codigo::before{
+        content: "Código: ";
+        font-weight: 600;
+    }
+    .table-name::before{
+        content: "Nome: ";
+        font-weight: 600;
+    }
+    .table-nas::before{
+        content: "Nacimento: ";
+        font-weight: 600;
+    }
+    .table-inclusion::before{
+        content: "Inclusão: ";
+        font-weight: 600;
+    }
+    .table-vencimento::before{
+        content: "Vencimento: ";
+        font-weight: 600;
+    }
+}
+
+@media(max-width:768px){
+    .image-nav{
+        display: none;
+    }
+
+    #info-geral{
+        margin-top: 0;
+    }
+    .card.widget-box-two{
+        margin: 15px 0;
+    }
+}
+
+@media (max-width:1199px) and (min-width:768px){
+    .avatar-lg.rounded-circle{
+        display: none;
+    }
+    .card-body{
+        padding: 15px;
+    }
+    .card-body h2{
+        font-size: 20px;
+    }
+}
